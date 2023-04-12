@@ -1,0 +1,28 @@
+.goal {
+    .container {
+        padding-top: 187px;
+        padding-bottom: 199px;
+        background-image: url(../img/section/goal/bg-goal.jpg);
+        background-repeat: no-repeat;
+        background-position: left center;
+    }
+}
+
+.goal__title {
+    margin-left: 611px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 15px;
+
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1.39;
+}
+
+.goal__desc {
+    margin-left: 611px;
+    max-width: 342px;
+    font-size: 14px;
+    line-height: 1.86;
+}
