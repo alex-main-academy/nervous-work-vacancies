@@ -65,7 +65,6 @@
 
     &:focus {
         border-color: var(--button-back-color);
-        ;
     }
 }
 
@@ -125,4 +124,45 @@
 
 .form__input_file::after:hover {
     background-color: var(--button-hover-color);
+}
+
+.form__text {
+    box-sizing: border-box;
+    height: 87px;
+    resize: none;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid #232323;
+    background-color: transparent;
+    padding: 10px 14px;
+
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: inherit;
+    letter-spacing: inherit;
+    color: inherit;
+
+
+    &:focus {
+        border-color: var(--button-back-color);
+    }
+}
+
+.form__submit {
+    background: #3F68D2;
+    border-radius: 8px;
+    padding: 13px 0;
+    width: 101px;
+
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: var(--white-text-color);
+
+    &:hover {
+        background-color: var(--button-hover-color);
+    }
 }
