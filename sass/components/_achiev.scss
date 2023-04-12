@@ -1,0 +1,68 @@
+.achiev {
+    padding-top: 48px;
+    padding-bottom: 121px;
+
+    .container {
+        padding-left: 137px;
+        padding-right: 71px;
+        background-image: url(../img/section/achiev/bg-achiev.svg);
+        background-repeat: no-repeat;
+        background-position: top 31px right 71px;
+    }
+}
+
+.achiev__title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 55px;
+
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.achiev__list {
+    display: flex;
+    column-gap: 31px;
+    row-gap: 18px;
+    flex-wrap: wrap;
+    padding-right: 65px;
+}
+
+.achiev__item {
+    width: calc(50% - 15.5px);
+
+    &:nth-child(3n) {
+        width: 100%;
+    }
+}
+
+.achiev__icons {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.achiev__icon {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.achiev__icon_hand {
+    display: flex;
+    padding: 17.5px 6px;
+    border-radius: 20px;
+}
+
+.achiev__subtitle {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 1.32;
+    margin-bottom: 7px;
+}
+
+.achiev__desc {
+    font-size: 14px;
+    line-height: 1.71;
+}
