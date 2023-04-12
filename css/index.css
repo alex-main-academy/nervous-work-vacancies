@@ -178,18 +178,21 @@ input {
   font-weight: 400;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Montserrat";
   src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Montserrat";
   src: url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
+
 :root {
   --primary-text-color: #F0F0F0;
   --accent-text-color: #E3D65A;
@@ -326,6 +329,7 @@ body {
 .achiev {
   padding-top: 48px;
 }
+
 .achiev .container {
   padding-left: 137px;
   padding-right: 71px;
@@ -346,7 +350,7 @@ body {
 .achiev__list {
   display: flex;
   -moz-column-gap: 31px;
-       column-gap: 31px;
+  column-gap: 31px;
   row-gap: 18px;
   flex-wrap: wrap;
   padding-right: 65px;
@@ -355,6 +359,7 @@ body {
 .achiev__item {
   width: calc(50% - 15.5px);
 }
+
 .achiev__item:nth-child(3n) {
   width: 100%;
 }
@@ -393,6 +398,7 @@ body {
   padding-top: 121px;
   padding-bottom: 14px;
 }
+
 .advantage .container {
   position: relative;
   padding-left: 137px;
@@ -405,6 +411,7 @@ body {
   line-height: 1.39;
   margin-bottom: 47px;
 }
+
 .advantage__title span {
   color: var(--accent-text-color);
 }
@@ -413,7 +420,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   -moz-column-gap: 80px;
-       column-gap: 80px;
+  column-gap: 80px;
   row-gap: 47px;
   margin-bottom: 9px;
 }
@@ -458,6 +465,7 @@ body {
   font-size: 12px;
   color: var(--white-text-color);
 }
+
 .advantage__link:hover {
   background-color: var(--button-hover-color);
 }
@@ -469,6 +477,7 @@ body {
   width: 253px;
   height: 253px;
   background-color: rgba(63, 104, 210, 0.16);
+  -webkit-filter: blur(97.5px);
   filter: blur(97.5px);
 }
 
@@ -480,6 +489,7 @@ body {
   width: 175px;
   height: 175px;
   background-color: rgba(227, 214, 90, 0.17);
+  -webkit-filter: blur(97.5px);
   filter: blur(97.5px);
 }
 
@@ -552,6 +562,7 @@ body {
   flex-direction: column;
   gap: 10px;
 }
+
 .form__label span {
   font-weight: 500;
   font-size: 14px;
@@ -572,6 +583,7 @@ body {
   letter-spacing: inherit;
   color: inherit;
 }
+
 .form__input:focus {
   border-color: var(--button-back-color);
 }
@@ -629,4 +641,4 @@ body {
 
 .form__input_file::after:hover {
   background-color: var(--button-hover-color);
-}/*# sourceMappingURL=index.css.map */
+}
