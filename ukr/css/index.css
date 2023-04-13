@@ -518,6 +518,7 @@ body {
   width: 253px;
   height: 253px;
   background-color: rgba(63, 104, 210, 0.16);
+  -webkit-filter: blur(97.5px);
   filter: blur(97.5px);
 }
 
@@ -529,6 +530,7 @@ body {
   width: 175px;
   height: 175px;
   background-color: rgba(227, 214, 90, 0.17);
+  -webkit-filter: blur(97.5px);
   filter: blur(97.5px);
 }
 
@@ -699,6 +701,7 @@ body {
   font-size: 14px;
   -webkit-user-select: none;
   -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
 }
 
@@ -813,5 +816,3 @@ body {
   line-height: 1.62;
   text-transform: capitalize;
 }
-
-/*# sourceMappingURL=index.css.map */
