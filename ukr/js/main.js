@@ -31,9 +31,20 @@ scrollButtonElement.addEventListener("click", () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
 
+// header
+const headerElement = document.querySelector(".header");
+
 // show button
 window.addEventListener("scroll", function () {
   const scrollPosition = window.scrollY;
+
+  if (scrollPosition >= 18) {
+    headerElement.style.backgroundColor = "rgba(250, 248, 248, 0.01)";
+    headerElement.style.paddingTop = "15.5px";
+  } else {
+    headerElement.style.backgroundColor = "transparent";
+    headerElement.style.paddingTop = "33.5px";
+  }
 
   if (scrollPosition >= 700) {
     scrollButtonElement.style.opacity = "1";

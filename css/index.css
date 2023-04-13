@@ -268,11 +268,19 @@ body {
   background-color: var(--green-back-color);
 }
 
+.header {
+  position: fixed;
+  z-index: 10000;
+  width: 100%;
+  padding-top: 33.5px;
+  padding-bottom: 15.5px;
+  transition-duration: 300ms;
+}
+
 .header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 33.5px;
 }
 
 .header__logo {
@@ -342,7 +350,7 @@ body {
 }
 
 .hero {
-  padding-top: 166.5px;
+  padding-top: 259px;
   padding-bottom: 289px;
 }
 
