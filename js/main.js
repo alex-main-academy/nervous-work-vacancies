@@ -30,3 +30,14 @@ const scrollButtonElement = document.querySelector(".js-scroll-top");
 scrollButtonElement.addEventListener("click", () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
+
+// show button
+window.addEventListener("scroll", function () {
+  const scrollPosition = window.scrollY;
+
+  if (scrollPosition >= 700) {
+    scrollButtonElement.style.opacity = "1";
+  } else {
+    scrollButtonElement.style.opacity = "0";
+  }
+});

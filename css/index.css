@@ -365,6 +365,39 @@ body {
   margin: 0 auto;
 }
 
+.wrapper {
+  position: relative;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.wrapper__fixed {
+  position: absolute;
+  right: 51px;
+  bottom: 140px;
+}
+
+.contact__scroll {
+  position: fixed;
+  padding: 0;
+  z-index: 1000;
+  bottom: 140px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #3F68D2;
+  border-radius: 12px;
+  transition-property: background-color, opacity;
+  transition-duration: 300ms;
+  opacity: 0;
+}
+
+.contact__scroll:hover {
+  background-color: var(--button-hover-color);
+}
+
 .achiev {
   padding-top: 48px;
 }
@@ -564,10 +597,6 @@ body {
   padding-bottom: 79.5px;
 }
 
-.contact .container {
-  position: relative;
-}
-
 .contact__title {
   text-align: center;
   font-weight: 600;
@@ -716,11 +745,11 @@ body {
 .form__file_icon {
   box-sizing: content-box;
   position: relative;
-  z-index: 200;
   display: block;
   margin-top: 4px;
   z-index: 200;
   padding: 5px;
+  cursor: pointer;
 }
 
 .form__text {
@@ -762,26 +791,6 @@ body {
 }
 
 .form__submit:hover {
-  background-color: var(--button-hover-color);
-}
-
-.contact__scroll {
-  position: absolute;
-  right: 15px;
-  bottom: -54px;
-  padding: 0;
-  width: 36px;
-  height: 36px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #3F68D2;
-  border-radius: 12px;
-  transition-property: background-color;
-  transition-duration: 300ms;
-}
-
-.contact__scroll:hover {
   background-color: var(--button-hover-color);
 }
 
