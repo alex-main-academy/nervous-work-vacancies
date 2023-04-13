@@ -6,7 +6,7 @@ const inputFileCloseIcon = document.createElement("img");
 inputFileName.classList.add("form__file_name");
 inputFileBlock.classList.add("form__file_block");
 inputFileCloseIcon.classList.add("form__file_icon");
-inputFileCloseIcon.setAttribute("src", "../img/icons/close.svg");
+inputFileCloseIcon.setAttribute("src", "img/icons/close.svg");
 
 inputFileBlock.append(inputFileCloseIcon, inputFileName);
 
