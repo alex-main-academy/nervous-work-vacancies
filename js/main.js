@@ -39,7 +39,7 @@ window.addEventListener("scroll", function () {
   const scrollPosition = window.scrollY;
 
   if (scrollPosition >= 18) {
-    headerElement.style.backgroundColor = "rgba(250, 248, 248, 0.01)";
+    headerElement.style.backgroundColor = "#1A1A1A";
     headerElement.style.paddingTop = "15.5px";
   } else {
     headerElement.style.backgroundColor = "transparent";
