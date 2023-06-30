@@ -1147,11 +1147,11 @@ section .container {
 }
 
 .form__input_file::after {
-  content: "Attach";
+  content: "Прикріпити";
   box-sizing: border-box;
   position: absolute;
   z-index: 3;
-  width: 96px;
+  width: 130px;
   height: 30px;
   top: 5px;
   right: 5px;
